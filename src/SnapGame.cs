@@ -35,10 +35,14 @@ namespace CardGames
 		private static void DrawGame(Snap myGame)
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			SwinGame.DrawBitmap ("cardsBoard.png", 0, 0);
 =======
 			SwinGame.ClearScreen(Color.White);
 >>>>>>> e4d57a5... First Commit
+=======
+			SwinGame.DrawBitmap("cardsBoard.png", 0, 0);
+>>>>>>> c9e5c90... add draw it in the game
 
 			// Draw the top card
 			Card top = myGame.TopCard;
