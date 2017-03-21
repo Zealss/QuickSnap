@@ -30,7 +30,7 @@ namespace CardGames
 
 			if (myGame.IsStarted)
 			{
-				if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT) && SwinGame.KeyTyped (KeyCode.vk_RSHIFT)
+				if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT) && SwinGame.KeyTyped (KeyCode.vk_RSHIFT))
 				{
 					//todoo: add sound effects
 				} else if (SwinGame.KeyTyped (KeyCode.vk_LSHIFT)) {
@@ -47,15 +47,7 @@ namespace CardGames
 		/// <param name="myGame">The details of the game -- mostly top card and scores.</param>
 		private static void DrawGame(Snap myGame)
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
 			SwinGame.DrawBitmap ("cardsBoard.png", 0, 0);
-=======
-			SwinGame.ClearScreen(Color.White);
->>>>>>> e4d57a5... First Commit
-=======
-			SwinGame.DrawBitmap("cardsBoard.png", 0, 0);
->>>>>>> c9e5c90... add draw it in the game
 
 			// Draw the top card
 			Card top = myGame.TopCard;
