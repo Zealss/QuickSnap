@@ -34,7 +34,11 @@ namespace CardGames
 		/// <param name="myGame">The details of the game -- mostly top card and scores.</param>
 		private static void DrawGame(Snap myGame)
 		{
+<<<<<<< HEAD
 			SwinGame.DrawBitmap ("cardsBoard.png", 0, 0);
+=======
+			SwinGame.ClearScreen(Color.White);
+>>>>>>> e4d57a5... First Commit
 
 			// Draw the top card
 			Card top = myGame.TopCard;
