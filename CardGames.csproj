@@ -74,10 +74,7 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\GameLogic\Card.cs" />
-    <Compile Include="src\GameLogic\Deck.cs" />
-    <Compile Include="src\GameLogic\Snap.cs" />
-    <Compile Include="src\SnapGame.cs" />
+    <Compile Include="src\**\*.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">
